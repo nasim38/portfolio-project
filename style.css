@@ -1,6 +1,15 @@
 body {
-  margin: 0;
+  margin:0
   font-family: "Poppins", sans-serif;
+}
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: "Poppins", sans-serif;
+}
+.intro-section {
+  display: flex;
+  background-color: #4240a3;
 }
 header ul {
   display: flex;
@@ -15,8 +24,16 @@ header ul li a {
   text-decoration: none;
 }
 .primary-button {
-  padding: 10px 20px;
+  padding: 6px 15px;
   margin: 10px;
-  background-image: linear-gradient(darkblue darkgreen);
+  background-color: salmon;
   text-decoration: none;
+  color: white;
+}
+.half-section {
+  width: 50%;
+  padding: 10px;
+  margin: 5px;
+}
+.half-section img {
 }
