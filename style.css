@@ -2,3 +2,21 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+header ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+header ul li {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+header ul li a {
+  text-decoration: none;
+}
+.primary-button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-image: linear-gradient(darkblue darkgreen);
+  text-decoration: none;
+}
